@@ -58,9 +58,11 @@
 
 
     var script = document.createElement("script");
+    const header = document.querySelector("#loading-header")
     script.src = loaderUrl;
     script.onload = () => {
       createUnityInstance(canvas, config, (progress) => { }).then((unityInstance) => {
+        header.style.display = "none"
       }).catch((message) => {
         alert(message);
       });
