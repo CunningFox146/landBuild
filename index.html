@@ -56,13 +56,11 @@
       document.getElementsByTagName('head')[0].appendChild(meta);
     }
 
-    loadingBar.style.display = "block";
 
     var script = document.createElement("script");
     script.src = loaderUrl;
     script.onload = () => {
       createUnityInstance(canvas, config, (progress) => { }).then((unityInstance) => {
-        loadingBar.style.display = "none";
       }).catch((message) => {
         alert(message);
       });
