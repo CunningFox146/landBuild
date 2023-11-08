@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-Land-1.0";
+const cacheName = "n1-Your Bonusses Await-1.0";
 const contentToCache = [
     "Build/WebglTest.loader.js",
     "Build/WebglTest.framework.js.br",
