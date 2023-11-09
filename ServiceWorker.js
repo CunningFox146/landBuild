@@ -1,9 +1,9 @@
 const cacheName = "n1-Your Bonusses Await-1.0";
 const contentToCache = [
     "Build/WebglTest.loader.js",
-    "Build/WebglTest.framework.js.br",
-    "Build/WebglTest.data.br",
-    "Build/WebglTest.wasm.br",
+    "Build/WebglTest.framework.js.gz",
+    "Build/WebglTest.data.gz",
+    "Build/WebglTest.wasm.gz",
     "TemplateData/style.css"
 
 ];
